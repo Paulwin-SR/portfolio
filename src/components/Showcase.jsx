@@ -35,7 +35,7 @@ const projects = [
     title: "PSC Quiz App",
     tech: "React Native + Firebase",
     thumbnail: "/psc_quiz_app_ui_1785229119142.png",
-    github: "https://github.com/Paulwin-SR/psc-quiz-app",
+    github: "https://github.com/Paulwin-SR/psc-quizz",
   },
   {
     title: "Netflix Clone",
