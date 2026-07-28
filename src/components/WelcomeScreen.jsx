@@ -166,7 +166,7 @@ export default function WelcomeScreen() {
             }}
             className="inline-block overflow-hidden whitespace-nowrap"
           >
-            paulwinsr
+            paulwin sr
           </motion.span>
 
           <motion.span

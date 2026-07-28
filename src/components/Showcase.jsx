@@ -27,49 +27,49 @@ const projects = [
   },
   {
     title: "Food Donation System",
-    tech: "React + Node.js + SQL",
+    tech: "React + Node.js + Firebase",
     thumbnail: "/food_donation_ui_1785228834085.png",
     github: "https://github.com/Paulwin-SR",
   },
   {
     title: "PSC Quiz App",
-    tech: "React Native + Firebase",
+    tech: "React Native + Firebas + Expo",
     thumbnail: "/psc_quiz_app_ui_1785229119142.png",
     github: "https://github.com/Paulwin-SR/psc-quizz",
   },
   {
     title: "Netflix Clone",
-    tech: "React + TMDb API",
+    tech: "React",
     thumbnail: "/netflix_clone_ui_1785229309650.png",
     github: "https://github.com/Paulwin-SR/Netflix-Clone",
   },
 ];
 
 const certificates = [
-  { 
-    title: "Java Full Stack Development Internship", 
-    tech: "Java Full Stack", 
-    thumbnail: "#" 
+  {
+    title: "Java Full Stack Development Internship",
+    tech: "Java Full Stack",
+    thumbnail: "#"
   },
-  { 
-    title: "Workshop on Artificial Intelligence Creating the Future & Exploring ML in Data Mining", 
-    tech: "AI & ML", 
-    thumbnail: "#" 
+  {
+    title: "Workshop on Artificial Intelligence Creating the Future & Exploring ML in Data Mining",
+    tech: "AI & ML",
+    thumbnail: "#"
   },
-  { 
-    title: "AI for All Certificate – AI for All Program (2026)", 
-    tech: "AI", 
-    thumbnail: "#" 
+  {
+    title: "AI for All Certificate – AI for All Program (2026)",
+    tech: "AI",
+    thumbnail: "#"
   },
-  { 
-    title: "Certificate for completion of Python 3.4.3 Training", 
-    tech: "Python", 
-    thumbnail: "#" 
+  {
+    title: "Certificate for completion of Python 3.4.3 Training",
+    tech: "Python",
+    thumbnail: "#"
   },
-  { 
-    title: "6 days internship programme on 'Scientific Computing with Python'", 
-    tech: "Python & Data Science", 
-    thumbnail: "#" 
+  {
+    title: "6 days internship programme on 'Scientific Computing with Python'",
+    tech: "Python & Data Science",
+    thumbnail: "#"
   },
 ];
 
@@ -470,8 +470,8 @@ export default function ShowcaseSection() {
     active === "projects"
       ? "8px"
       : active === "certificates"
-      ? "calc(33.333% + 4px)"
-      : "calc(66.666% + 0px)";
+        ? "calc(33.333% + 4px)"
+        : "calc(66.666% + 0px)";
 
   return (
     <section className="relative w-full min-h-[85vh] md:min-h-screen bg-black overflow-hidden text-white px-4 sm:px-8 md:px-16 lg:px-24 py-0 md:py-12 -mt-16 sm:mt-0 md:mt-12">
