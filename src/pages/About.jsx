@@ -139,8 +139,6 @@ export default function About() {
               hover:border-[#555555]
               transition-all
               duration-300
-              grayscale
-              hover:grayscale-0
             "
           />
 
